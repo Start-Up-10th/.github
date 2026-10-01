@@ -69,24 +69,6 @@ Check UP은 출입구 기기의 카메라와 학생의 휴대폰으로 이 확�
 
 <br/>
 
-## 🏗️ 아키텍처
-
-```mermaid
-flowchart LR
-    U["🧑‍🎓 학생 · 🧑‍💼 관리자<br/>브라우저"] --> W["🌐 Web<br/>Next.js"]
-    W -- "/api" --> S["⚙️ Server<br/>Spring Boot"]
-    S --> P[("🐘 PostgreSQL<br/>학생 · 동의 · 출석 · 봉사 · 알림")]
-    S --> R[("🔴 Redis<br/>로그인 세션 · QR")]
-    S --> A["🤖 AI<br/>FastAPI · MediaPipe"]
-    S --> D["🏫 DataGSM<br/>OAuth · 학생 OpenAPI"]
-```
-
-- 출석 확정은 언제나 **서버**가 합니다. AI는 인식 결과만 돌려줍니다.
-- 얼굴 원본 영상 · 사진은 저장하지 않습니다.
-- 당일 출석 기록은 매일 08:00에 정리합니다.
-
-<br/>
-
 ## 📦 레포지토리
 
 | 레포 | 설명 | 기술 |
