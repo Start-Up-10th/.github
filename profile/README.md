@@ -69,17 +69,6 @@ Check UP은 출입구 기기의 카메라와 학생의 휴대폰으로 이 확�
 
 <br/>
 
-## 📦 레포지토리
-
-| 레포 | 설명 | 기술 |
-| :-- | :-- | :-- |
-| [**CheckUp-Client**](https://github.com/Start-Up-10th/CheckUp-Client) | 학생 · 관리자 웹 | Next.js · TypeScript · Tailwind CSS |
-| [**CheckUp-server**](https://github.com/Start-Up-10th/CheckUp-server) | API 서버 | Java 25 · Spring Boot 4 · PostgreSQL · Redis |
-| [**CheckUp-AI**](https://github.com/Start-Up-10th/CheckUp-AI) | 얼굴 검출 · 인식 | FastAPI · MediaPipe |
-| [**Start-Up-harness**](https://github.com/Start-Up-10th/Start-Up-harness) | 명세 · 계획 · API 계약 · 작업 지침 | Markdown · OpenAPI |
-
-<br/>
-
 ## 👥 팀원
 
 <table>
